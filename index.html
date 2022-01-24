@@ -1,16 +1,114 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Youtube Clone Page</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Youtube Clone Page</title>
+    </head>
 
-<body>
-    <h1> Hello Word!</h1>
-    <p>Teste</p>
-</body>
+    <body>
+
+        <header class="cabecalho">
+
+            <!-- LOGO -->
+            <div class="coluna">
+                <figure>
+                    <img width="100px" src="./img/logo.png" alt="Youtube Clone Page">
+                </figure>
+            </div>
+
+            <!-- PESQUISA -->
+            <div class="coluna">
+                <div class="formularioPesquisa">
+                    <input type="text" placeholder="Pesquisar">
+                    <button>
+                        <img src="img/pesquisa.svg" alt="Botão Pesquisar">
+                    </button>
+                </div>
+            </div>
+
+            <!-- USUARIO -->
+            <div class="coluna">
+                <figure class="imagemUsuario">
+                    <img src="./img/usuario.jpg" alt="Imagem Usuário">
+                </figure>
+            </div>
+
+        </header>
+
+        <main>
+
+            <div class="destaqueCanal"></div>
+
+            <section class="secaoCanal">
+
+                <div class="detalheCanal">
+
+                    <figure>
+                        <img src="./img/logocanal.jpg" alt="GamerX">
+                    </figure>
+
+                    <div class="detalheCanal_info">
+                        <h1>GamerX</h1>
+                        <p>88,5 mil inscritos</p>
+                    </div>
+
+                </div>
+
+                <nav class="menusNavegacaoCanal">
+
+                    <ul>
+                        <li>
+                            <a href="#">Início</a>
+                        </li>
+                        <li>
+                            <a href="#">Vídeos</a>
+                        </li>
+                        <li>
+                            <a href="#">Playlists</a>
+                        </li>
+                        <li>
+                            <a href="#">Comunidade</a>
+                        </li>
+                        <li>
+                            <a href="#">Canais</a>
+                        </li>
+                        <li>
+                            <a href="#">Sobre</a>
+                        </li>
+                        <li>
+                            <button>
+                                <img src="./img/pesquisa.svg" alt="Botao de pesquisa">
+                            </button>
+                        </li>
+                    </ul>
+
+                </nav>
+
+            </section>
+
+            <div class="containerVideosDestaques">
+
+                <!-- COLUNA DA ESQUERDA -->
+                <div class="coluna">
+                    <section class="secaoVideosDestaque">
+
+                    </section>
+                </div>
+
+                <!-- COLUNA DA DIREITA -->
+                <div class="coluna">
+                    <section class="secaoAdicionarAFila">
+
+                    </section>
+                </div>
+ 
+            </div>
+
+        </main>
+        
+    </body>
 
 </html>
