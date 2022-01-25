@@ -1,0 +1,53 @@
+body{}
+
+/* seletor css por classe */
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+}
+.cabecalho .coluna{}
+
+/* seletor css por hierarquia */
+.cabecalho figure{}
+.cabecalho figure img{
+    width: 90px;
+}
+
+.formularioPesquisa{
+    display: flex;
+    height: 40px;
+}
+.formularioPesquisa input{
+    width: 500px;
+    font-size: 16px;
+    border: 1px solid #cccccc;
+    padding: 0 10px;
+    border-radius: 2px 0 0 2px;
+}
+.formularioPesquisa button{
+    width: 60px;
+    border: 1px solid #cccccc;
+    border-left: none;
+    border-radius: 0 2px 2px 0;
+}
+.formularioPesquisa button img{
+    width: 18px;
+}
+
+.imagemUsuario{}
+.cabecalho .imagemUsuario img{
+    width: 35px;
+    border-radius: 100%;
+}
+
+.destaqueCanal{
+    background-image: url(./img/destaque.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+
