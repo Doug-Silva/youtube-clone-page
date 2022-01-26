@@ -1,5 +1,14 @@
 body{}
 
+main{
+    background-color: #f8f8f8;
+}
+
+.container{
+    width: 1300px;
+    margin: 0 auto;
+}
+
 /* seletor css por classe */
 .cabecalho{
     display: flex;
@@ -49,5 +58,92 @@ body{}
     background-repeat: no-repeat;
     height: 300px;
 }
+
+.secaoCanal{
+    background-color: #fff;
+}
+.secaoCanal .container{}
+
+.detalheCanal{
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+    margin-bottom: 15px;
+}
+.detalheCanal figure{
+    margin-right: 20px;
+}
+.detalheCanal figure img{
+    border-radius: 100%;
+    width: 80px;
+}
+
+.detalheCanal_info{}
+.detalheCanal_info h1{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.detalheCanal_info p{
+    font-size: 15px;
+}
+
+.menusNavegacaoCanal{}
+.menusNavegacaoCanal ul{
+    display: flex;
+    align-items: center;
+}
+.menusNavegacaoCanal ul li{}
+.menusNavegacaoCanal ul li a{
+    color: #606060;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.menusNavegacaoCanal ul li button{
+    background-color: transparent;
+    border: none;
+}
+.menusNavegacaoCanal ul li button img{
+    width: 18px;
+}
+
+.containerVideosDestaques{}
+.containerVideosDestaques .coluna{}
+
+.secaoVideosDestaque{}
+.secaoVideosDestaque h2{}
+
+.secaoVideosDestaques_lista{}
+.secaoVideosDestaques_lista li{}
+.secaoVideosDestaques_lista li figure{}
+.secaoVideosDestaques_lista li figure img{}
+.secaoVideosDestaques_lista li div{}
+.secaoVideosDestaques_lista li div h3{}
+.secaoVideosDestaques_lista li div span{}
+.buttonAdicionarAFila{}
+
+.secaoAdicionarAFila{}
+
+.secaoAdicionarAfila_cabecalho{}
+.secaoAdicionarAfila_cabecalho h2{}
+.secaoAdicionarAfila_cabecalho p{}
+
+.secaoAdicionarAFila_lista{}
+.secaoAdicionarAFila_lista li{}
+.secaoAdicionarAFila_lista li figure{}
+.secaoAdicionarAFila_lista li figure img{}
+.secaoAdicionarAFila_lista li div{}
+.secaoAdicionarAFila_lista li div h3{}
+.secaoAdicionarAFila_lista li div span{}
+.secaoAdicionarAFila_lista li div p{}
+
+
+
+
+
+
+
 
 
