@@ -9,7 +9,7 @@
   <p>Página clone de um canal do YouTube feita em HTML, CSS, JavaScript, onde o usuário pode adicionar os vídeos na lista de reprodução</p>
 
   <div>
-    <a href="https://github.com/Doug-Silva/youtube-clone-page/blob/main/LICENSE"><img src="https://img.shields.io/npm/l/react" alt="License MIT"></a>
+    <a href="https://github.com/Doug-Silva/youtube-clone-page/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-green" alt="License MIT"></a>
   </div><br>
 
   <!--Adicionar imagem/gif do projeto aqui-->
